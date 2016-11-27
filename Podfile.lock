@@ -1,0 +1,24 @@
+PODS:
+  - CocoaAsyncSocket (7.4.1)
+  - NHNetworkTime (1.6):
+    - CocoaAsyncSocket (<= 7.4.1)
+
+DEPENDENCIES:
+  - NHNetworkTime (from `https://github.com/huynguyencong/NHNetworkTime.git`)
+
+EXTERNAL SOURCES:
+  NHNetworkTime:
+    :git: https://github.com/huynguyencong/NHNetworkTime.git
+
+CHECKOUT OPTIONS:
+  NHNetworkTime:
+    :commit: 5b5e8a0e18b440a3177615abff277546cdc5ab2e
+    :git: https://github.com/huynguyencong/NHNetworkTime.git
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7cbf214b27f8e7f7574db6a3fd96352ffaed433d
+  NHNetworkTime: d4a05f26fc3676a722db38724adda7dba7321ba1
+
+PODFILE CHECKSUM: 5c41bdce0f10536182c73bf59e82671ea56772be
+
+COCOAPODS: 1.0.1
